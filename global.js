@@ -1,4 +1,4 @@
-const urlQa = 'http://123.57.92.138:5000'
+const urlQa = 'http://ip:5000'
 const urlDev = 'http://localhost:5000'
 var BASE_URL = ''
 process.env.NODE_ENV === 'development'
