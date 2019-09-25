@@ -1,0 +1,49 @@
+{
+  "permissions": [
+    {
+      "children": null,
+      "menuNo": 1,
+      "meta": {
+        "icon": "el-icon-user-solid",
+        "title": "角色管理"
+      },
+      "name": "role",
+      "path": "role"
+    },
+    {
+      "children": [
+        {
+          "children": null,
+          "menuNo": 1,
+          "meta": {
+            "icon": "",
+            "title": "修改密码"
+          },
+          "name": "user/ChangePwd",
+          "path": "user/ChangePwd"
+        },
+        {
+          "children": null,
+          "menuNo": 2,
+          "meta": {
+            "icon": "",
+            "title": "用户列表"
+          },
+          "name": "user/UserInfo",
+          "path": "user/UserInfo"
+        }
+      ],
+      "menuNo": 2,
+      "meta": {
+        "icon": "el-icon-user-solid",
+        "title": "用户管理"
+      },
+      "name": "user",
+      "path": "user"
+    }
+  ],
+  "userId": 1,
+  "userName": "管理员",
+  "userNo": "admin",
+  "userTel": "18888888888"
+}
