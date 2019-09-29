@@ -218,7 +218,7 @@ export default {
       })
     },
     handleDelete (index, row) {
-      this.signal.invoke('SendMessage', row.userId, 'message').catch(err => console.error(err.toString()))
+      this.signal.invoke('SendNotice', row.userId, 'message').catch(err => console.error(err.toString()))
       if (row.userState === 1) {
         this.$message.error({
           message: '该用户处于正常状态，不能删除！',

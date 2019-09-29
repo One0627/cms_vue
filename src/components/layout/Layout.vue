@@ -51,21 +51,11 @@
     <el-container>
       <el-aside :width="sideBarWidth" class="aside" :style="asideStyle">
         <!-- <el-scrollbar style="height: 100%;"> -->
-        <!-- el-menu: 导航菜单的组件 -->
-        <!-- default-active：默认高亮的菜单 -->
-        <!-- open close 展开和关闭的事件 -->
-        <!-- el-submenu: 子菜单 -->
-        <!-- el-menu-item-group: 子菜单中分组 -->
-        <!-- el-menu-item：子菜单中的每一项 -->
-        <!-- unique-opened: 保证只能打开一个子菜单 -->
-        <!-- router: 如果router为true，那么index就会作为路由的连接 -->
-
         <sidebar :nodes="routers" :isCollapse="isCollapse" />
         <!-- </el-scrollbar> -->
       </el-aside>
       <!--使用element的自带的滚动条，官方文档没有-->
       <!-- <el-scrollbar style="height: 100%;width: 100%;"> -->
-
       <el-main style="height: 100%;width: 100%;">
         <tabs ref="add" />
       </el-main>
@@ -81,9 +71,8 @@ import utils from '@/utils/utils'
 import { mapActions, mapGetters } from 'vuex'
 export default {
   created () {
-    this.signal.start()
-    this.signal.off('ReceiveMessage')
-    this.signal.on('ReceiveMessage', res => {
+    this.signal.off('ReceiveNotice')
+    this.signal.on('ReceiveNotice', res => {
       this.$notify({
         title: res.title,
         message: res.message,
