@@ -1,13 +1,13 @@
 import axios from 'axios'
-import router from '../router'
+// import router from '../router'
 import BASE_URL from '../../global'
-import { getToken, removeToken } from '@/common/auth'
+import { getToken } from '@/common/auth' /* , removeToken */
 axios.defaults.withCredentials = true
 const ajax = axios.create({
-  baseURL: BASE_URL, // 'http://localhost:5000',
-  timeout: 3000000,
+  baseURL: BASE_URL,
+  timeout: 3000000 /* ,
   responseType: 'json', // 响应数据格式
-  responseEncoding: 'utf8' // 响应数据编码
+  responseEncoding: 'utf8' // 响应数据编码 */
 })
 
 ajax.interceptors.request.use(
@@ -25,7 +25,14 @@ ajax.interceptors.request.use(
 )
 ajax.interceptors.response.use(
   response => {
-    return response
+    if (response.config.responseType === 'blob') {
+      const fileName = decodeURI(
+        response.headers['content-disposition'].match(/(?<=filename=)\D+(?=;)/)
+      )
+      // 返回文件流内容，以及获取文件名, response.headers['content-disposition']的获取, 默认是获取不到的,需要对服务端webapi进行配置
+      return Promise.resolve({ data: response.data, fileName: fileName })
+    }
+    return response.data
   },
   error => {
     if (error && error.response) {
@@ -68,10 +75,10 @@ ajax.interceptors.response.use(
           break
         default:
       }
-      if (getToken()) {
+      /* if (getToken()) {
         removeToken()
         router.push('/login')
-      }
+      } */
     }
     return Promise.reject(error)
   }

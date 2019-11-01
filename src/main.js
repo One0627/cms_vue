@@ -7,12 +7,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store/store'
 import signal from './utils/signalR'
-import md5 from 'js-md5'
-import Base64 from 'js-base64'
+import BASE_URL from '../global'
 Vue.use(ElementUI, { size: 'small', zIndex: 3000 })
 Vue.use(signal)
-Vue.prototype.md5 = md5
-Vue.prototype.Base64 = Base64
+Vue.prototype.BASE_URL = BASE_URL
 // require('./mock') // 引入mock数据，关闭则注释该行
 
 Vue.config.productionTip = false

@@ -1,5 +1,6 @@
 import { getToken, setToken, removeToken } from '@/common/auth'
 import userapi from '@/api/user'
+import md5 from 'js-md5'
 
 const SET_TOKEN = 'SET_TOKEN'
 const SET_NO = 'SET_NO'
@@ -35,8 +36,9 @@ const user = {
   actions: {
     login ({ commit }, user) {
       return new Promise((resolve, reject) => {
+        const { userNo, passWord } = user
         userapi
-          .login(user)
+          .login({ userNo: userNo.trim(), passWord: md5(passWord) })
           .then(res => {
             if (res.data.result) {
               setToken(res.data.token)
@@ -93,6 +95,7 @@ const user = {
     }
   },
   getters: {
+    token: state => state.token,
     username: state => state.username,
     permissions: state => state.permissions,
     userno: state => state.userno,

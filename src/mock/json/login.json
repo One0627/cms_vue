@@ -1,5 +1,5 @@
 {
-    "result":{
-        "token":"token"
-    }
+    "result": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiZXhwIjoxNTcwODk2OTI5LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjgwODAifQ.n58xFnL5ZOkog1OqccToksbheFoS5KZjmY6S-hhx3fw",
+    "message": "恭喜你，登录成功"
 }

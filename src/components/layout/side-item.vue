@@ -30,3 +30,33 @@ export default {
   }
 }
 </script>
+<style lang="less" scoped>
+.el-submenu__title i {
+  margin-right: 10px;
+}
+
+.el-menu {
+  background-color: #324157;
+  border-right: none;
+  .el-menu-item-group {
+    background-color: #324157;
+  }
+
+  .el-menu-item.is-active {
+    background-color: #49515c;
+  }
+  /* //一级节点高亮
+  .el-submenu.is-opened {
+    background-color: #49515c;
+  } */
+}
+
+.el-menu-item:hover {
+  background-color: #444d57;
+  color: #ffffff !important;
+}
+
+.el-submenu__title:hover {
+  background-color: #4a525d;
+}
+</style>

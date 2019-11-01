@@ -3,13 +3,13 @@
     <el-card class="card">
       <el-row type="flex" class="row-bg" justify="center">
         <el-form :rules="rules" :model="UserInfo" status-icon ref="loginForm" label-width="100px">
-          <el-form-item label="账号" prop="account">
-            <el-input type="text" v-model="UserInfo.account" autocomplete="off" ref="account" clearable></el-input>
+          <el-form-item label="账号" prop="userNo">
+            <el-input type="text" v-model="UserInfo.userNo" ref="userNo" clearable></el-input>
           </el-form-item>
-          <el-form-item label="密码" prop="password">
-            <el-input type="password" v-model="UserInfo.password" @keyup.enter.native="onLogin" autocomplete="new-password" ref="password" clearable></el-input>
+          <el-form-item label="密码" prop="passWord">
+            <el-input type="passWord" v-model="UserInfo.passWord" @keyup.enter.native="onLogin" ref="passWord" clearable></el-input>
           </el-form-item>
-          <el-form-item label="记住密码" hidden>
+          <el-form-item label="记住密码">
             <el-switch v-model="remember"></el-switch>
           </el-form-item>
           <el-form-item>
@@ -23,13 +23,14 @@
 </template>
 <script>
 import { mapActions, mapGetters } from 'vuex'
+import { Base64 } from 'js-base64'
 export default {
   name: 'login',
   created () {
     if (localStorage.getItem('remember')) {
-      let UserInfo = JSON.parse(localStorage.getItem('UserInfo'))
-      this.UserInfo.account = UserInfo.account // localStorage.getItem('UserInfo')
-      this.UserInfo.password = UserInfo.password // localStorage.getItem('UserInfo')
+      let UserInfo = Base64.decode(localStorage.getItem('UserInfo'))
+      this.UserInfo.userNo = UserInfo.userNo // localStorage.getItem('UserInfo')
+      this.UserInfo.passWord = UserInfo.passWord // localStorage.getItem('UserInfo')
       this.remember = true
     }
     localStorage.clear()
@@ -38,8 +39,8 @@ export default {
     ...mapGetters([])
   },
   data () {
-    // account 验证
-    const validateaccount = (rule, value, callback) => {
+    // userNo 验证
+    const validateuserNo = (rule, value, callback) => {
       if (!/^[A-Za-z0-9]+$/.test(value)) {
         callback(new Error('请输入由英文数字组成的用户名'))
       } else {
@@ -56,18 +57,18 @@ export default {
     }
     return {
       UserInfo: {
-        account: '',
-        password: ''
+        userNo: '',
+        passWord: ''
       },
       loading: false,
       remember: false,
       rules: {
-        account: [
+        userNo: [
           { required: true, message: '请输入账号', trigger: 'blur' },
-          { required: true, trigger: 'blur', validator: validateaccount },
-          { required: true, trigger: 'change', validator: validateaccount }
+          { required: true, trigger: 'blur', validator: validateuserNo },
+          { required: true, trigger: 'change', validator: validateuserNo }
         ],
-        password: [
+        passWord: [
           { required: true, message: '请输入密码', trigger: 'blur' },
           { required: true, trigger: 'blur', validator: validatePwd },
           { required: true, trigger: 'change', validator: validatePwd }
@@ -83,12 +84,11 @@ export default {
       this.$refs.loginForm.validate(async (valid) => {
         if (valid) {
           this.loading = true
-          this.UserInfo.password = this.md5(this.UserInfo.password)
           this.login(this.UserInfo).then(res => {
             if (res.result) {
               if (this.remember) {
                 localStorage.setItem('remember', this.remember)
-                localStorage.setItem('UserInfo', JSON.stringify(this.UserInfo))
+                localStorage.setItem('UserInfo', Base64.encode(this.UserInfo))
               } else {
                 localStorage.removeItem('remember')
                 localStorage.removeItem('UserInfo')

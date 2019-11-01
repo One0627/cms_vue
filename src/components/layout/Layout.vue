@@ -4,7 +4,7 @@
     <el-header style="height: 70px;">
       <div class="logo">
         <span style="color:#909399">
-          <h2 class="el-icon-menu" /><b> 新感觉后台管理系统</b></span>
+          <h2 class="el-icon-menu" /><b>海纳惠捷商务TTS管理系统</b></span>
       </div>
       <div class="header-left">
         <div class="operate" ref="operate">
@@ -149,7 +149,7 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style  lang="less">
 body {
   height: 100%;
 

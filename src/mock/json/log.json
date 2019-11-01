@@ -1,0 +1,147 @@
+[
+  {
+    "insdate": "2019-10-16  15:29:18",
+    "username": "宋伦",
+    "logInfo": "点击了查看按钮"
+  },
+  {
+    "insdate": "2019-10-16  15:28:32",
+    "username": "宋伦",
+    "logInfo": "点击了查看按钮"
+  },
+  {
+    "insdate": "2019-10-16  15:17:39",
+    "username": "Auto_OutTicket",
+    "logInfo": "出票成功 录入采购信息成功"
+  },
+  {
+    "insdate": "2019-10-16  15:17:39",
+    "username": "赵雨露",
+    "logInfo": "修改自动出票订单的出票利润:109.24,增值服务利润:0"
+  },
+  {
+    "insdate": "2019-10-16  15:17:39",
+    "username": "Auto_OutTicket",
+    "logInfo": "调用出票接口成功, 回填票号：【X8158R】"
+  },
+  {
+    "insdate": "2019-10-16  15:17:36",
+    "username": "AirAsia.SeatAll:0673",
+    "logInfo": "<span style=\"color:\"#EC7B05\">结束自动支付</span>[X8158R]ty6DR4poPaafQMQan48"
+  },
+  {
+    "insdate": "2019-10-16  15:17:36",
+    "username": "Auto_Pay",
+    "logInfo": "<span style=\"color:green\">全部支付都已经过自动处理，将自动录入采购信息出票。</span>"
+  },
+  {
+    "insdate": "2019-10-16  15:17:35",
+    "username": "Auto_Pay",
+    "logInfo": "X8158R支付成功"
+  },
+  {
+    "insdate": "2019-10-16  15:17:33",
+    "username": "Auto_Pay",
+    "logInfo": "\n                  <div class=\"t2\">\n                    <div class=\"c1\"><img alt=\"\" src=\"./images/1pxdot.gif\" class=\"confirm\"/><img class=\"status-print\" src=\"./images/AKNewSkin/icon-paymentstatus-confirm.gif\"/><span class=\"confirm status\">已确认</span></div>\n                    <div class=\"c2\">\n                      <p><span>预订编号 :\n            </span><span id=\"OptionalHeaderContent_lblBookingNumber\" class=\"red\">X8158R</span></p>\n                      <p><span>支付金额:\n                    </span><span id=\"OptionalHeaderContent_lblTotalPaid\" class=\"red\">3,623.76 CNY</span></p>\n                    </div>\n                  </div>\n                  <div class=\"itinerary-title\">\n                    <p style=\"margin-left:-10px\"><br/>登机时，您需要提供该确认编号以及您的身份证。</p>\n                  </div>\n                \r\n\n                  <div class=\"left-col-details_short\">\n                    <div class=\"booking-details-title\">预订信息</div>\n                    <div class=\"booking-details-table\">\n                      <div class=\"customHeader\">航班信息</div>\n                      <div id=\"ctl00_OptionalHeaderContent_radGridDepartTable\" class=\"RadGrid RadGrid_AirAsiaBooking3 radGridFlightTable\">\n                        <table class=\"rgMasterTable\" rules=\"all\" border=\"0\" style=\"width: 100%; table-layout: auto; empty-cells: show;\">\n                          <colgroup>\n                            <col/>\n                            <col/>\n                            <col/>\n                          </colgroup>\n                          <thead>\n                            <tr>\n                              <th scope=\"col\" class=\"rgHeader\">起飞</th>\n                              <th scope=\"col\" class=\"rgHeader\" colspan=\"2\">ICN - DMK</th>\n                            </tr>\n                          </thead>\n                          <tbody>\n                            <tr class=\"rgRow\" id=\"ctl00_OptionalHeaderContent_radGridDepartTable_ctl00__0\">\n                              <td style=\"vertical-align: middle;\">\n                                <div class=\"left\">XJ  703<br/></div>\n                              </td>\n                              <td>\n                                <div class=\"itineraryCustom2\">\n                                  <div class=\"left itineraryCustom4\">\n                                    <div style=\"font-weight: bold\">\n首尔 - 仁川 (ICN)<br/></div>仁川国际机场 (第1终站) (ICN)\n                                    <br/>10月18日2019, 0105<br/></div>\n                                  <div class=\"arrow-right\" style=\"margin: 10px 0 10px 10px;\"><img class=\"arrow-print\" src=\"./images/AKNewSkin/arrowright.gif\"/></div>\n                                </div>\n                              </td>\n                              <td>\n                                <div class=\"left itineraryCustom4\">\n                                  <div style=\"font-weight: bold\">曼谷 - 廊曼 (DMK)<br/></div>廊曼机场 (DMK)\n                                  <br/>10月18日2019, 0440<br/></div>\n                              </td>\n                            </tr>\n                          </tbody>\n                        </table>\n                      </div>\n                    </div>\n                  </div>\n                \n                  <div class=\"left-col-details_short\">\n                    <div class=\"booking-details-table\">\n                      <div class=\"RadGrid RadGrid_AirAsiaBooking2\">\n                        <table class=\"rgMasterTable\" rules=\"all\" border=\"0\" style=\"width: 100%; table-layout: auto; empty-cells: show;\">\n                          <colgroup>\n                            <col/>\n                          </colgroup>\n                          <thead>\n                            <tr>\n                              <th scope=\"col\" class=\"rgHeader\">乘客信息</th>\n                            </tr>\n                          </thead>\n                          <tbody>\n                            <tr class=\"rgRow\">\n                              <td>\n                                <div class=\"clear guest-detail-caption\" style=\"padding: 0 10px 0 0; cursor: default;\"><span id=\"span1\" class=\"arrow-double-down arrow-btn\" onclick=\"SKYSALES.Util.itineraryDisable(1);\">?</span>成人 1 :<span class=\"guest-detail-name\"> INSUK  HWANG </span></div>\n                                <div class=\"target1\" style=\"display: none;\">\n                                  <div class=\"clear guest-detail-description\">\n                                    <div style=\"width: 100%;\">\n                                      <p><label class=\"alignedLabel\">出生日期</label>: 19/02/1988</p>\n                                    </div>\n                                  </div>\n                                </div>\n                                <table class=\"target1 itinTable\">\n                                  <tbody><tr>\n                                    <td style=\"top:0;left:0;\"></td>\n                                  </tr>\n                                  <tr>\n                                    <td style=\"top:0;left:0;\">\n                                      <div class=\"guest-detail-addon-caption\" style=\"color: #000000\">\n                      Add-ons\n                    </div>\n                                    </td>\n                                  </tr>\n                                  <tr><td class=\"segmentContainer\">\n                                    <div class=\"guest-detail-addon-caption\">ICN\n    -\n    DMK</div>\n                                    <div class=\"paxSSR this1\">20 公斤托运行李 </div>\n                                  </td>\n                                </tr></tbody></table>\n                              </td>\n                            </tr>\n                            <tr class=\"rgRow\">\n                              <td>\n                                <div class=\"clear guest-detail-caption\" style=\"padding: 0 10px 0 0; cursor: default;\"><span id=\"span2\" class=\"arrow-double-down arrow-btn\" onclick=\"SKYSALES.Util.itineraryDisable(2);\">?</span>成人 2 :<span class=\"guest-detail-name\"> CHANGHYUN  JUN </span></div>\n                                <div class=\"target2\" style=\"display: none;\">\n                                  <div class=\"clear guest-detail-description\">\n                                    <div style=\"width: 100%;\">\n                                      <p><label class=\"alignedLabel\">出生日期</label>: 09/06/1988</p>\n                                    </div>\n                                  </div>\n                                </div>\n                                <table class=\"target2 itinTable\">\n                                  <tbody><tr>\n                                    <td style=\"top:0;left:0;\"></td>\n                                  </tr>\n                                  <tr>\n                                    <td style=\"top:0;left:0;\">\n                                      <div class=\"guest-detail-addon-caption\" style=\"color: #000000\">\n                      Add-ons\n                    </div>\n                                    </td>\n                                  </tr>\n                                  <tr><td class=\"segmentContainer\">\n                                    <div class=\"guest-detail-addon-caption\">ICN\n    -\n    DMK</div>\n                                    <div class=\"paxSSR this1\">20 公斤托运行李 </div>\n                                  </td>\n                                </tr></tbody></table>\n                              </td>\n                            </tr>\n                            <tr class=\"rgRow\">\n                              <td>\n                                <div class=\"clear guest-detail-caption\" style=\"padding: 0 10px 0 0; cursor: default;\"><span id=\"span3\" class=\"arrow-double-down arrow-btn\" onclick=\"SKYSALES.Util.itineraryDisable(3);\">?</span>成人 3 :<span class=\"guest-detail-name\"> MINHO  PARK </span></div>\n                                <div class=\"target3\" style=\"display: none;\">\n                                  <div class=\"clear guest-detail-description\">\n                                    <div style=\"width: 100%;\">\n                                      <p><label class=\"alignedLabel\">出生日期</label>: 01/02/1989</p>\n                                    </div>\n                                  </div>\n                                </div>\n                                <table class=\"target3 itinTable\">\n                                  <tbody><tr>\n                                    <td style=\"top:0;left:0;\"></td>\n                                  </tr>\n                                  <tr>\n                                    <td style=\"top:0;left:0;\">\n                                      <div class=\"guest-detail-addon-caption\" style=\"color: #000000\">\n                      Add-ons\n                    </div>\n                                    </td>\n                                  </tr>\n                                  <tr><td class=\"segmentContainer\">\n                                    <div class=\"guest-detail-addon-caption\">ICN\n    -\n    DMK</div>\n                                    <div class=\"paxSSR this2\">无特殊服务请求</div>\n                                  </td>\n                                </tr></tbody></table>\n                              </td>\n                            </tr>\n                          </tbody>\n                        </table>\n                      </div>\n                    </div>\n                  </div>\n                \n                  <div class=\"left-col-details_short\"></div>\n                \n                  <div class=\"left-col-details_short\">\n                    <div class=\"booking-details-table\">\n                      <div class=\"RadGrid RadGrid_AirAsiaBooking2\">\n                        <table class=\"rgMasterTable\" rules=\"all\" border=\"0\" style=\"width: 100%; table-layout: auto; empty-cells: show;\">\n                          <colgroup>\n                            <col/>\n                            <col/>\n                          </colgroup>\n                          <thead>\n                            <tr>\n                              <th scope=\"col\" class=\"rgHeader\">确认</th>\n                              <th scope=\"col\" class=\"rgHeader\">\n                      ?\n                    </th>\n                            </tr>\n                          </thead>\n                          <tbody>\n                            <tr class=\"rgRow\">\n                              <td>\n                                <div class=\"left paymentCustom2\">代理处信用 - 已确认</div>\n                              </td>\n                              <td>\n                                <div class=\"left\" style=\"width: 100px; text-align: right;\"></div>\n                              </td>\n                            </tr>\n                            <tr class=\"rgAltRow\">\n                              <td class=\"w100p\">\n                                <div class=\"left paymentCustom2\">CNWHTYUAND</div>\n                              </td>\n                              <td class=\"w250\">\n                                <div class=\"left\" style=\"width: 100px; text-align: right;\">3,623.76 CNY</div>\n                              </td>\n                            </tr>\n                          </tbody>\n                        </table>\n                        <table class=\"rgMasterTable\" rules=\"all\" border=\"0\" style=\"width: 100%; table-layout: auto; empty-cells: show;\">\n                          <colgroup>\n                            <col/>\n                            <col/>\n                          </colgroup>\n                        </table>\n                      </div>\n                    </div>\n                  </div>\n                \n                  <div class=\"left-col-details\">\n                    <div class=\"booking-details-table\">\n                      <div class=\"RadGrid RadGrid_AirAsiaBooking2\">\n                        <table class=\"rgMasterTable\" rules=\"all\" border=\"0\" style=\"width: 100%; table-layout: auto; empty-cells: show;\">\n                          <colgroup>\n                            <col/>\n                            <col/>\n                          </colgroup>\n                          <thead>\n                            <tr>\n                              <th scope=\"col\" class=\"rgHeader\">联系信息</th>\n                            </tr>\n                          </thead>\n                          <tbody>\n                            <tr class=\"rgRow\">\n                              <td>\n                                <div style=\"padding: 0 10px 0 16px\">\n                                  <p class=\"contactBold\">FANG YANG</p><br/><p>Mobile phone : 13618652422</p><br/><p>Email : yahang16518@163.com</p>\n                                </div>\n                              </td>\n                            </tr>\n                          </tbody>\n                        </table>\n                      </div>\n                    </div>\n                  </div>\n                \n                  <div class=\"left-col-details\">\n                    <div class=\"booking-details-table\">\n                      <div class=\"RadGrid RadGrid_AirAsiaBooking2\">\n                        <table class=\"rgMasterTable\" rules=\"all\" border=\"0\" style=\"width: 100%; table-layout: auto; empty-cells: show;\">\n                          <colgroup>\n                            <col/>\n                            <col/>\n                          </colgroup>\n                          <thead>\n                            <tr>\n                              <th scope=\"col\" class=\"rgHeader\">详细信息</th>\n                            </tr>\n                          </thead>\n                          <tbody>\n                            <tr class=\"rgRow\">\n                              <td>\n                                <div class=\"sectionBody\">\n                                  <table class=\"priceDisplay\">\n                                    <tbody>\n                                      <tr>\n                                        <td class=\"td1\"></td>\n                                        <td class=\"td2 bold\">ICN\n                                -\n                                DMK</td>\n                                        <td class=\"td2\"></td>\n                                        <td class=\"td2 bold\"></td>\n                                      </tr>\n                                      <tr>\n                                        <td class=\"td1 grey-color\">航费价格</td>\n                                        <td class=\"td2\">471,870 KRW</td>\n                                        <td class=\"td2\"></td>\n                                        <td class=\"td2 bold grey-color\">471,870 KRW</td>\n                                      </tr>\n                                      <tr>\n                                        <td class=\"td1 grey-color\">航费费用和税收</td>\n                                        <td class=\"td2\">89,130 KRW</td>\n                                        <td class=\"td2\"></td>\n                                        <td class=\"td2 bold grey-color\">89,130 KRW</td>\n                                      </tr>\n                                      <tr>\n                                        <td class=\"td1 grey-color\">20 公斤托运行李 </td>\n                                        <td class=\"td2 position_1\">86,100 KRW</td>\n                                        <td class=\"td2\"></td>\n                                        <td class=\"td2 bold grey-color\"></td>\n                                      </tr>\n                                      <tr class=\"total\">\n                                        <td class=\"td1\"><strong>总金额</strong></td>\n                                        <td colspan=\"2\"></td>\n                                        <td class=\"td2 bold\">647,100 KRW</td>\n                                      </tr>\n                                    </tbody>\n                                  </table>\n                                </div>\n                              </td>\n                            </tr>\n                          </tbody>\n                        </table>\n                      </div>\n                    </div>\n                  </div>\n                "
+  },
+  {
+    "insdate": "2019-10-16  15:16:41",
+    "username": "Auto_Pay",
+    "logInfo": "<span style=\"color:red\">旅行社准备点击支付按钮</span>"
+  },
+  {
+    "insdate": "2019-10-16  15:15:47",
+    "username": "Auto_Pay",
+    "logInfo": "开始旅行社自动支付"
+  },
+  {
+    "insdate": "2019-10-16  15:15:46",
+    "username": "AirAsia.SeatAll:0673",
+    "logInfo": "<span style=\"color:#EC7B05\">开始自动支付</span>[X8158R]ty6DR4poPaafQMQan48"
+  },
+  {
+    "insdate": "2019-10-16  15:15:46",
+    "username": "Dispatcher",
+    "logInfo": "随机账号"
+  },
+  {
+    "insdate": "2019-10-16  15:15:45",
+    "username": "赵雨露",
+    "logInfo": "手动提交自动支付:票号:X8158R"
+  },
+  {
+    "insdate": "2019-10-16  15:13:19",
+    "username": "赵雨露",
+    "logInfo": "点击了出票按钮"
+  },
+  {
+    "insdate": "2019-10-16  15:13:13",
+    "username": "赵雨露",
+    "logInfo": "赵雨露锁定了订单"
+  },
+  {
+    "insdate": "2019-10-16  15:13:12",
+    "username": "OrderReader",
+    "logInfo": "利润109.24，特殊航线，不自动支付 ty6DR4poPaafQMQan48"
+  },
+  {
+    "insdate": "2019-10-16  15:13:12",
+    "username": "admin",
+    "logInfo": "<span style=\"color:red;font-size:10pt;font-weight:bolder\">乘机人证件类型有变动: HWANG/INSUK:=>护照  JUN/CHANGHYUN:=>护照  PARK/MINHO:=>护照 </span>"
+  },
+  {
+    "insdate": "2019-10-16  15:13:11",
+    "username": "admin",
+    "logInfo": "携程数据同步,更新携程平台订单号,出票单号,订单金额,订单时间,支付时间,最晚出票时间,行李数据"
+  },
+  {
+    "insdate": "2019-10-16  14:56:23",
+    "username": "AirAsia.SeatAll:0686",
+    "logInfo": "<span style=\"color:#ECA505\">结束预占座</span>"
+  },
+  {
+    "insdate": "2019-10-16  14:56:22",
+    "username": "Auto_Seat",
+    "logInfo": "结束自动占座，占座成功"
+  },
+  {
+    "insdate": "2019-10-16  14:56:20",
+    "username": "Auto_Seat",
+    "logInfo": "JUN/CHANGHYUN,ICNDMK:20KG,已确认"
+  },
+  {
+    "insdate": "2019-10-16  14:56:20",
+    "username": "Auto_Seat",
+    "logInfo": "HWANG/INSUK,ICNDMK:20KG,已确认"
+  },
+  {
+    "insdate": "2019-10-16  14:56:19",
+    "username": "Auto_Seat",
+    "logInfo": "<font color=\"red\">旅行社支付宝占座成功, 占座账号:dukang20,占座密码:Jishu@01,6位票号:X8158R,占座金额:3623.760000,占座手续费:0.000000,行李金额:539.930000,占座币种:CNY,支付方式：使用旅行社信用点支付划算,联系人邮箱:yahang16518@163.com</font>"
+  },
+  {
+    "insdate": "2019-10-16  14:56:00",
+    "username": "Auto_Seat",
+    "logInfo": "开始旅行社占座"
+  },
+  {
+    "insdate": "2019-10-16  14:56:00",
+    "username": "Auto_Seat",
+    "logInfo": "\t<table border=\"1\" style=\"border-collapse: collapse;\">\n\t<tr>\n\t<th colspan=\"5\">ICN-DMK</th>\n\t</tr>\n\t<tr>\n\t<th>查价渠道</th>\n\t<th>支付方式</th>\n\t<th>单人价格</th>\n\t<th>剩余座位数</th>\n\t<th>预计总价(CNY)</th>\n\t</tr>\n\t\t<tr>\n\t\t\t<td rowspan=\"1\">官网</td>\n\t\t\t<td>易商旅</td>\n\t\t\t<td>1111.37</td>\n\t\t\t<td>6</td>\n\t\t\t<td>3486.00</td>\n\t\t</tr><tr>\n\t\t\t<td rowspan=\"1\">旅行社</td>\n\t\t\t<td>信用积点</td>\n\t\t\t<td>1047.20</td>\n\t\t\t<td>0</td>\n\t\t\t<td>3141.60</td>\n\t\t</tr>\n\t\t\t</table>\n\t"
+  },
+  {
+    "insdate": "2019-10-16  14:55:54",
+    "username": "AirAsia.SeatAll:0686",
+    "logInfo": "<span style=\"color:#ECA505\">开始预占座</span>"
+  },
+  {
+    "insdate": "2019-10-16  14:55:53",
+    "username": "Dispatcher",
+    "logInfo": "随机账号"
+  },
+  {
+    "insdate": "2019-10-16  14:55:52",
+    "username": "AUTO_sync",
+    "logInfo": "同步关系数据成功"
+  }
+]

@@ -1,49 +1,111 @@
 {
+  "userId": 1,
+  "userNo": "admin",
+  "userName": "管理员",
+  "userTel": "18888888888",
   "permissions": [
     {
-      "children": null,
+      "path": "user",
+      "name": "user",
       "menuNo": 1,
       "meta": {
         "icon": "el-icon-user-solid",
-        "title": "角色管理"
+        "title": "用户管理",
+        "search": true,
+        "add": true,
+        "delete": true,
+        "update": true,
+        "import": true,
+        "export": true,
+        "_lock": true
       },
-      "name": "role",
-      "path": "role"
-    },
-    {
       "children": [
         {
-          "children": null,
+          "path": "user/UserInfo",
+          "name": "UserInfo",
           "menuNo": 1,
           "meta": {
-            "icon": "",
-            "title": "修改密码"
+            "icon": null,
+            "title": "用户列表",
+            "search": true,
+            "add": true,
+            "delete": true,
+            "update": true,
+            "import": true,
+            "export": true,
+            "_lock": true
           },
-          "name": "user/ChangePwd",
-          "path": "user/ChangePwd"
+          "children": null
         },
         {
-          "children": null,
+          "path": "user/ChangePwd",
+          "name": "ChangePwd",
           "menuNo": 2,
           "meta": {
-            "icon": "",
-            "title": "用户列表"
+            "icon": null,
+            "title": "修改密码",
+            "search": true,
+            "add": true,
+            "delete": true,
+            "update": true,
+            "import": true,
+            "export": true,
+            "_lock": true
           },
-          "name": "user/UserInfo",
-          "path": "user/UserInfo"
+          "children": null
         }
-      ],
+      ]
+    },
+    {
+      "path": "role/RoleInfo",
+      "name": "RoleInfo",
       "menuNo": 2,
       "meta": {
-        "icon": "el-icon-user-solid",
-        "title": "用户管理"
+        "icon": "el-icon-s-custom",
+        "title": "角色管理",
+        "search": true,
+        "add": true,
+        "delete": true,
+        "update": true,
+        "import": true,
+        "export": true,
+        "_lock": true
       },
-      "name": "user",
-      "path": "user"
+      "children": null
+    },
+    {
+      "path": "MenuManage",
+      "name": "MenuManage",
+      "menuNo": 3,
+      "meta": {
+        "icon": "el-icon-menu",
+        "title": "菜单管理",
+        "search": true,
+        "add": true,
+        "delete": true,
+        "update": true,
+        "import": true,
+        "export": true,
+        "_lock": true
+      },
+      "children": null
+    },
+    {
+      "path": "order/OrderManage",
+      "name": "OrderManage",
+      "menuNo": 4,
+      "meta": {
+        "icon": "el-icon-s-order",
+        "title": "订单管理",
+        "search": true,
+        "add": true,
+        "delete": true,
+        "update": true,
+        "import": true,
+        "export": true,
+        "_lock": true
+      },
+      "children": null
     }
-  ],
-  "userId": 1,
-  "userName": "管理员",
-  "userNo": "admin",
-  "userTel": "18888888888"
+  ]
 }

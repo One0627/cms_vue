@@ -1,0 +1,104 @@
+{
+  "total": 72,
+  "tableData": [
+    {
+      "userId": 1,
+      "userNo": "admin",
+      "userName": "管理员",
+      "userTel": "18888888888",
+      "passWord": null,
+      "userState": 1,
+      "roleIds": [
+        1
+      ]
+    },
+    {
+      "userId": 2,
+      "userNo": "songlun",
+      "userName": "宋伦",
+      "userTel": "10000",
+      "passWord": null,
+      "userState": 1,
+      "roleIds": [
+        7,
+        8
+      ]
+    },
+    {
+      "userId": 4,
+      "userNo": "qwe",
+      "userName": "测试1",
+      "userTel": "10086",
+      "passWord": null,
+      "userState": 1,
+      "roleIds": [
+        8
+      ]
+    },
+    {
+      "userId": 6,
+      "userNo": "administrator",
+      "userName": "admin",
+      "userTel": "1111",
+      "passWord": null,
+      "userState": 1,
+      "roleIds": []
+    },
+    {
+      "userId": 7,
+      "userNo": "H005",
+      "userName": "杨凤至",
+      "userTel": "234",
+      "passWord": null,
+      "userState": 1,
+      "roleIds": []
+    },
+    {
+      "userId": 8,
+      "userNo": "H007",
+      "userName": "杨朝意",
+      "userTel": "15972996426",
+      "passWord": null,
+      "userState": 1,
+      "roleIds": []
+    },
+    {
+      "userId": 9,
+      "userNo": "Htest",
+      "userName": "test",
+      "userTel": "test",
+      "passWord": null,
+      "userState": 1,
+      "roleIds": []
+    },
+    {
+      "userId": 10,
+      "userNo": "H001",
+      "userName": "雷鸣",
+      "userTel": "18901390098",
+      "passWord": null,
+      "userState": 1,
+      "roleIds": []
+    },
+    {
+      "userId": 11,
+      "userNo": "H002",
+      "userName": "石敏",
+      "userTel": "13651137684",
+      "passWord": null,
+      "userState": 1,
+      "roleIds": [
+        1
+      ]
+    },
+    {
+      "userId": 12,
+      "userNo": "H006",
+      "userName": "杨芳",
+      "userTel": "13618652422",
+      "passWord": null,
+      "userState": 1,
+      "roleIds": []
+    }
+  ]
+}

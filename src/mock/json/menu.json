@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "用户管理",
+    "menuNo": 1,
+    "url": "user",
+    "icon": "el-icon-user-solid",
+    "parentId": null,
+    "children": [
+      {
+        "id": 3,
+        "name": "用户列表",
+        "menuNo": 1,
+        "url": "user/UserInfo",
+        "icon": null,
+        "parentId": 1,
+        "children": []
+      },
+      {
+        "id": 4,
+        "name": "修改密码",
+        "menuNo": 2,
+        "url": "user/ChangePwd",
+        "icon": null,
+        "parentId": 1,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "角色管理",
+    "menuNo": 2,
+    "url": "role/RoleInfo",
+    "icon": "el-icon-s-custom",
+    "parentId": null,
+    "children": []
+  },
+  {
+    "id": 5,
+    "name": "菜单管理",
+    "menuNo": 3,
+    "url": "MenuManage",
+    "icon": "el-icon-menu",
+    "parentId": null,
+    "children": []
+  }
+]

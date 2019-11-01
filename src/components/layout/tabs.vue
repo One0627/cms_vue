@@ -1,9 +1,11 @@
 <template>
   <el-tabs v-model="editableTabsValue" type="card" @tab-remove="removeTab" @jump='addTab'>
     <el-tab-pane :key="item.name" v-for="(item) in editableTabs" :label="item.title" :closable="item.isClose" :name="item.name" style="height:800px;width: 100%;">
-      <keep-alive>
-        <component :is="item.content" ></component>
-      </keep-alive>
+      <el-scrollbar style="height: 100%;width: 100%;">
+        <keep-alive>
+          <component :is="item.content"></component>
+        </keep-alive>
+      </el-scrollbar>
     </el-tab-pane>
   </el-tabs>
 </template>
@@ -50,7 +52,7 @@ export default {
       })
       if (res) {
         try {
-          let Acomponent = resolve => require(['@/components/' + key + '.vue'], resolve)
+          let Acomponent = resolve => require(['@/views/' + key + '.vue'], resolve)
           this.editableTabs.push({
             title: targetName,
             name: key,
@@ -85,3 +87,11 @@ export default {
   }
 }
 </script>
+<style lang="less">
+.el-tab-pane {
+  .el-scrollbar__wrap {
+    //禁止横向滚动条的出现
+    overflow-x: hidden;
+  }
+}
+</style>
