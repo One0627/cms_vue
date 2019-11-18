@@ -4,7 +4,7 @@
     <el-header style="height: 70px;">
       <div class="logo">
         <span style="color:#909399">
-          <h2 class="el-icon-menu" /><b>海纳惠捷商务TTS管理系统</b></span>
+          <h2 class="el-icon-menu" /><b>管理系统</b></span>
       </div>
       <div class="header-left">
         <div class="operate" ref="operate">
