@@ -7,10 +7,20 @@ import 'nprogress/nprogress.css'
 import Layout from '@/components/layout/Layout.vue'
 import store from './store/store.js'
 import { getToken } from './common/auth'
+import { Notification } from 'element-ui'
 
 Vue.use(Router)
 // hidden为true时 侧边导航不显示
 export const constantRouterMap = [
+  {
+    path: '/404',
+    component: resolve => require(['@/views/404.vue'], resolve),
+    name: '404',
+    meta: {
+      title: 'NoPage'
+    },
+    hidden: true
+  },
   {
     path: '/',
     hidden: true,
@@ -41,7 +51,7 @@ export const constantRouterMap = [
   {
     path: '*',
     hidden: true,
-    component: resolve => require(['@/views/404.vue'], resolve)
+    redirect: { path: '/404' }
   }
 ]
 
@@ -64,15 +74,23 @@ router.beforeEach((to, from, next) => {
   }
   if (getToken()) {
     // 如果已经就是要去login了，就不需要拦截了
-    if (to.path === '/login') {
+    if (to.path === '/login' || to.name === '404') {
       next()
       NProgress.done() // 这种情况不会触发router的后置钩子，所以这里需要单独处理
     } else {
       // 有token，没有permissions
       if (store.getters.routers.length === 0) {
+        Notification({
+          message: '成功获取Token，等待服务器返回用户信息...',
+          type: 'success'
+        })
         store
           .dispatch('pullUserInfo')
           .then(resp => {
+            Notification({
+              message: '用户信息获取成功',
+              type: 'success'
+            })
             store.dispatch('GenerateRoutes', resp.permissions).then(() => {
               // 动态添加可访问路由表
               // router.addRoutes(store.getters.addRouters)
